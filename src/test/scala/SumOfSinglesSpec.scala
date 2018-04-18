@@ -5,7 +5,7 @@ class SumOfSinglesSpec extends WordSpec with MustMatchers {
   "sumOfNumbers" when {
 
     "called will add '1,2,3,4,5,6,7'" should {
-      "return '28'" in {
+      "return '15'" in {
         SumOfSingles.sumOfNumbers(List(4,5,7,5,4,8)) mustBe 15
       }
     }
